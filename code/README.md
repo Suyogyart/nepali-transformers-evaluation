@@ -10,35 +10,35 @@ _**Note:** Transformers and RNN codes should be run on a dedicated GPU._
 
 ## Subfolder contents
 
-### Data Collection
+### [Data Collection](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/data-collection)
 
 * Nepali news scraping Script
 * Exploratory Data Analysis
 
-### Preprocessing
+### [Preprocessing](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/preprocessing)
 
 * Preprocessing Script
 * Train-Valid-Test split with varying dataset sizes
 
-### Transformer models
+### [Transformer models](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/transformer-models)
 
 * Intuitive evaluation of models using Word Masking
 * Tokenization examples with pretrained tokenizers
 * Finetuning using Trainer API
 * Weights and Biases (wandb) logging for Transformers
 
-### RNN model
+### [RNN model](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/rnn-models)
 
 * BiLSTM - Model architecture
 * Training, Validation and Testing
 * Weights and Biases (wandb) logging for Tensorflow
 
-### Machine Learning models
+### [Machine Learning models](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/machine-learning-models)
 
 * Nested Cross Validation Procedure using Grid Search
 * Training with optimal hyperparameters and Testing
 
-### Results
+### [Results](https://github.com/Suyogyart/nepali-transformers-evaluation/tree/main/code/results)
 
 * Comparison of models with `16-class` and `20-class` datasets with 1500 rows per class.
 * Comparison of models with `20-class` dataset with 1500, 500, 250 and 50 rows per class (varying data sizes)

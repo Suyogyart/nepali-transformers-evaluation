@@ -47,3 +47,15 @@ These URLs are basically the ones which have pagination and depending on the num
 For some news websites such as **Ekantipur, Gorkhapatra and Nagariknews**, they do not have pagination, they have JavaScript enabled webpages to load more news. Hence, we scroll down until desired number of news articles are available, then save the page. So, we scrape news from the static HTML files.
 
 ## Exploratory Data Analysis of Whole Dataset
+
+Over 200,000 news articles were scraped belonging to 20 different categories from several news sources. This analysis will cover following areas:
+
+1. Dataset Overview
+2. Unique Sources
+3. Total Articles by Unique Sources
+4. Unique Categories
+5. Total articles by Unique Categories
+6. Total articles in Categories and sources combined
+7. Content and Heading word length distribution and info
+
+See `EDA_whole_dataset.ipynb` file for all the info.
