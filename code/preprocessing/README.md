@@ -20,5 +20,20 @@ Some basic preprocessing steps that can be applied are:
 Its example usage can be found in `preprocessing_example.ipynb` notebook.
 
 ## Dataset sampling (different sizes)
+We have a huge overall dataset, so, for experiment purpose, we will be using small subsets of original dataset.
+
+We have 4 different sizes of datasets:
+
+- **30K** - 1500 rows per class
+- **15K** - 500 rows per class
+- **10K** - 250 rows per class
+- **1K** - 50 rows per class
+
+Moreover, we are experimenting with datasets having 20 classes and 16 classes. So these both variants have different data size versions
+as number of rows per classes as mentioned above.
+
+_**Note:** 30K size dataset is sampled from the original dataset, and only content having word count more than 20 and less than 1000 is taken. Additionally, these dataset sizes are pre-processed with before-mentioned steps to reduce the overhead later._
+
 
 ## Train Valid Test Split
+Each of the data size variants are splitted in the ratio of 80 : 10 : 10 using stratified sampling as train, validation and test splits and are suffixed with '_train', '_valid' and '_test' in the file names. Those files with stop words removed are suffixed with '_nosw'.
