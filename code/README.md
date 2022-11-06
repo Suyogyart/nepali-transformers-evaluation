@@ -1,4 +1,4 @@
-This folder consists of main base jupyter notebook files out of numerous experiments conducted for training and finetuning process for the experiments conducted.
+This folder consists of main base jupyter notebook files out of numerous experiments conducted for training and finetuning processes.
 
 # Code
 
