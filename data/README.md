@@ -1,5 +1,5 @@
 # Dataset (Nepali Newsgroup)
-The [main dataset](https://huggingface.co/datasets/Suyogyart/nepali-20-newsgroup) has over 200,000 rows and can be downloaded or loaded from HuggingFace datasets library. It is mostly suitable for **multi-class nepali text classification** problems.
+The [main dataset](https://huggingface.co/datasets/Suyogyart/np20ng) has over 200,000 rows and can be downloaded or loaded from HuggingFace datasets library. It is mostly suitable for **multi-class nepali text classification** problems.
 ## Terminologies
 
 *np16ng - np (Nepali), 16 (16 classes), ng (newsgroup)*
